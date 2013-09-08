@@ -9,13 +9,9 @@
 
   %body{ class: "#{page_classes}" }
 
-    %header
-      %h1
-        Christian Fleschhut
+    = partial :header
 
     %main
       = yield
 
-    %footer
-      %p
-        &copy; 2013
+    = partial :footer
