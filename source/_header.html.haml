@@ -1,3 +1,21 @@
-%header
-  %h1
-    Christian Fleschhut
+.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header
+      %button.navbar-toggle{ data: { target: '.navbar-collapse', toggle: 'collapse' } }
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      #logo
+        %a.navbar-brand{ href: "#" }
+          cF
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li.active
+          %a{ href: "#" }
+            About
+        %li
+          %a{ href: "#about" }
+            Timeline
+        %li
+          %a{ href: "#contact" }
+            Contact

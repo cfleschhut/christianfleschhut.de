@@ -1,7 +1,35 @@
 @import "compass";
 @import "bootstrap";
-@import "bootstrap/theme";
 
 body {
-  background: image-url('background.png');
+  padding-top: 50px;
+}
+
+// Logo
+
+$logo-color: green;
+$logo-size: 40px;
+
+.navbar-header {
+  position: relative;
+}
+#logo {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  a {
+    width: $logo-size;
+    height: $logo-size;
+    padding: 0;
+    background: $logo-color;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    line-height: $logo-size;
+    text-align: center;
+    &:hover {
+      background: darken($logo-color, 5%);
+    }
+  }
 }
