@@ -1,2 +1,7 @@
 @import "compass";
 @import "bootstrap";
+@import "bootstrap/theme";
+
+body {
+  background: image-url('background.png');
+}
