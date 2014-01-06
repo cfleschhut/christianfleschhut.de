@@ -5,13 +5,14 @@
     %title
       = current_page.data.title || 'Christian Fleschhut: Frontend-Entwickler, Berlin'
     = stylesheet_link_tag 'all'
-    = javascript_include_tag  'all'
+    = javascript_include_tag 'all'
 
   %body{ class: "#{page_classes}" }
 
-    = partial :header
+    .container
+      = partial :header
 
-    %main
-      = yield
+      %main
+        = yield
 
-    = partial :footer
+      = partial :footer
