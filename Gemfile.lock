@@ -97,4 +97,3 @@ DEPENDENCIES
   bootstrap-sass
   middleman (~> 3.2.1)
   middleman-livereload (~> 3.1.0)
-  rack
