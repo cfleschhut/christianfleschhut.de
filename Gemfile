@@ -15,4 +15,4 @@ platforms :mri_18 do
   gem "ruby18_source_location"
 end
 
-gem "bootstrap-sass", github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+gem "bootstrap-sass"
