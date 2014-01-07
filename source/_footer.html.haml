@@ -1,4 +1,29 @@
-%footer
-  %hr
-  %p
-    &copy; 2014 Christian Fleschhut
+%footer#site_footer
+  .container
+    .pull-left
+      %p#copyright
+        &copy; 2014 Christian Fleschhut
+      %nav
+        %ul.list-inline
+          %li
+            = link_to 'About', '#about'
+          %li
+            &middot;
+          %li
+            = link_to 'Timeline', '#timeline'
+          %li
+            &middot;
+          %li
+            = link_to 'Contact', '#contact'
+
+    .pull-right
+      %nav
+        %ul.list-inline
+          %li
+            = link_to 'twitter', 'https://twitter.com/cfleschhut'
+          %li
+            = link_to 'github', 'https://github.com/cfleschhut'
+          %li
+            = link_to 'xing', 'http://www.xing.com/profiles/Christian_Fleschhut'
+          %li
+            = link_to 'delicious', 'https://delicious.com/christianfleschhut'
