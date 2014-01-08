@@ -1,6 +1,6 @@
 %footer#site_footer
   .container
-    .pull-left
+    .section.section_01
       %p#copyright
         &copy; 2014 Christian Fleschhut
       %nav
@@ -16,14 +16,30 @@
           %li
             = link_to 'Contact', '#contact'
 
-    .pull-right
+    .section.section_02
       %nav
         %ul.list-inline
           %li
-            = link_to 'twitter', 'https://twitter.com/cfleschhut'
+            %span.fa-stack
+              %i.fa.fa-stack-2x.fa-circle
+              %i.fa.fa-stack-1x.fa-inverse.fa-twitter
+            = link_to 'https://twitter.com/cfleschhut' do
+              twitter
           %li
-            = link_to 'github', 'https://github.com/cfleschhut'
+            %span.fa-stack
+              %i.fa.fa-stack-2x.fa-circle
+              %i.fa.fa-stack-1x.fa-inverse.fa-github
+            = link_to 'https://github.com/cfleschhut' do
+              github
           %li
-            = link_to 'xing', 'http://www.xing.com/profiles/Christian_Fleschhut'
+            %span.fa-stack
+              %i.fa.fa-stack-2x.fa-circle
+              %i.fa.fa-stack-1x.fa-inverse.fa-xing
+            = link_to 'http://www.xing.com/profiles/Christian_Fleschhut' do
+              xing
           %li
-            = link_to 'delicious', 'https://delicious.com/christianfleschhut'
+            %span.fa-stack
+              %i.fa.fa-stack-2x.fa-circle
+              %i.fa.fa-stack-1x.fa-inverse.fa-bookmark
+            = link_to 'https://delicious.com/christianfleschhut' do
+              delicious
