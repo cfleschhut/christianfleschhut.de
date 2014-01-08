@@ -26,7 +26,7 @@ title: "Christian Fleschhut: Frontend Developer &middot; Berlin, Germany"
       %hr
 
       .row
-        .col-sm-6
+        .col-sm-4
           %h4
             My current tools of trade include:
           %ul
@@ -36,8 +36,17 @@ title: "Christian Fleschhut: Frontend Developer &middot; Berlin, Germany"
               Twitter Bootstrap, Bourbon & Neat, Zurb Foundation
             %li
               Sublime Text, Chrome Web Inspector, Git, Photoshop
-
-        .col-sm-6
+        .col-sm-4
+          %h4
+            At night I dream about someday getting my head around:
+          %ul
+            %li
+              NodeJS
+            %li
+              Backbone
+            %li
+              Objective-C
+        .col-sm-4
           %h4
             Some technologies I’ve used in the past:
           %ul
@@ -108,43 +117,45 @@ title: "Christian Fleschhut: Frontend Developer &middot; Berlin, Germany"
     .col-md-4
       %h3
         Email
-      %p
-        %span.glyphicon.glyphicon-fire
-        Lorem ipsum #{link_to 'dolor sit amet', '#'}, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-      %p.text-right
-        = link_to '#', class: 'btn btn-primary' do
-          %span.glyphicon.glyphicon-chevron-right
-          lorem ipsum
+      %ul.fa-ul
+        %li
+          %i.fa.fa-li.fa-inbox
+          %p
+            Feel free to drop me a line at:
+            = mail_to 'hello@christianfleschhut.de', 'hello@christianfleschhut.de'
+        %li
+          %i.fa.fa-li.fa-skype
+          %p
+            Skype-ID:
+            = link_to 'cfleschhut', 'skype:cfleschhut'
     .col-md-4
       %h3
-        Headline
-      %p
-        %span.glyphicon.glyphicon-camera
-        Lorem ipsum #{link_to 'dolor sit amet', '#'}, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-      %p.text-right
-        = link_to '#', class: 'btn btn-primary' do
-          %span.glyphicon.glyphicon-chevron-right
-          lorem ipsum
+        Credits
+      %ul.fa-ul
+        %li
+          %i.fa.fa-li.fa-cogs
+          Site powered by:
+          %br
+          #{link_to 'Middleman', 'http://middlemanapp.com/'},
+          #{link_to 'Bootstrap-Sass', 'https://github.com/twbs/bootstrap-sass'}
+          &amp; Club Mate
+        %li
+          %i.fa.fa-li.fa-camera-retro
+          Photo by:
+          %br
+          = link_to 'Apolonia Wieland', 'http://bangbang-photography.com/'
     .col-md-4
       %h3
         Elsewhere
       %p
-        / %span.glyphicon.glyphicon-cloud
         I store various code snippets at these places:
-      %ul
+      %ul.fa-ul
         %li
+          %i.fa.fa-li.fa-code-fork
           = link_to 'GitHub Gist', 'https://gist.github.com/cfleschhut'
         %li
+          %i.fa.fa-li.fa-code
           = link_to 'jsFiddle.net', 'http://jsfiddle.net/user/cfleschhut/fiddles/'
         %li
+          %i.fa.fa-li.fa-puzzle-piece
           = link_to 'snipplr.com', 'http://snipplr.com/users/cfleschhut'
-      / %p.text-right
-      /   = link_to '#', class: 'btn btn-primary' do
-      /     %span.glyphicon.glyphicon-chevron-right
-      /     lorem ipsum
