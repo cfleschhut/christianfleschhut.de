@@ -1,6 +1,6 @@
-// collapse navbar onclick in small screens
 $(document).ready(function() {
 
+  // collapse navbar onclick in small screens
   if (window.matchMedia) {
     var mq = window.matchMedia("(max-width: 767px)");
     var mediaQueryChange = function(mq) {

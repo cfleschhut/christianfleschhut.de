@@ -71,23 +71,23 @@ section {
   img {
     margin-bottom: 20px;
   }
-  strong {
-    font-weight: 500;
+}
+#welcome {
+  h3 {
+    margin-bottom: 15px;
+    font-weight: 300;
   }
   .lead {
     margin-bottom: 15px;
-    line-height: 1.6;
   }
 }
-#welcome {
-  p:first-child {
-    font-size: 28px;
+.highlights {
+  line-height: 1.6;
+  .text-highlight {
+    margin: 0 -3px;
+    padding: 2px 3px;
+    background: rgba(lighten(yellow, 25%), 0.75);
   }
-}
-.text-highlight {
-  margin: 0 -3px;
-  padding: 2px 3px;
-  background: lighten(yellow, 25%);
 }
 
 // Footer
