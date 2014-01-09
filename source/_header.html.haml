@@ -1,13 +1,13 @@
 #navbar.navbar.navbar-inverse.navbar-fixed-top
   .container
     .navbar-header
-      %a.navbar-toggle{ data: { target: '.navbar-collapse', toggle: 'collapse' } }
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
       #logo
         %a.navbar-brand{ href: "#start" }
           cF
+      %button.navbar-toggle{ data: { target: '.navbar-collapse', toggle: 'collapse' } }
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
     .collapse.navbar-collapse
       %ul.nav.navbar-nav.navbar-right
         %li
