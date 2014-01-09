@@ -90,6 +90,40 @@ section {
   }
 }
 
+#skills {
+  .col {
+    margin-bottom: 30px;
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 0;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+#timeline {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      @include make-row();
+      .panel-wrapper {
+        @include make-sm-column(6);
+      }
+      &:nth-child(even) .panel-wrapper {
+        @include make-sm-column-offset(6);
+      }
+      &:last-child {
+        .panel {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
 // Footer
 
 #site_footer {
