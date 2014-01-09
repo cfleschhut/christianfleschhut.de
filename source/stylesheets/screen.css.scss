@@ -93,10 +93,14 @@ section {
 #skills {
   .col {
     margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
     @media (min-width: $screen-sm-min) {
       margin-bottom: 0;
     }
-    ul {
+    ul,
+    li:last-child p {
       margin-bottom: 0;
     }
   }
