@@ -127,6 +127,11 @@ section {
     }
   }
 
+  .panel-body {
+    p:last-child {
+      margin: 0;
+    }
+  }
   .fa-trophy {
     color: #ccc;
   }
