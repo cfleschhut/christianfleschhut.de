@@ -8,7 +8,7 @@
             How to find me
 
   .row
-    .col-md-4
+    .col-sm-4
       %h3
         Email
       %ul.fa-ul
@@ -22,25 +22,40 @@
           %p
             Skype-ID:
             = link_to 'cfleschhut', 'skype:cfleschhut'
-    .col-md-4
+    .col-sm-4
       %h3
         Credits
       %ul.fa-ul
         %li
-          %i.fa.fa-li.fa-cogs
-          Site powered by:
-          %br
-          #{link_to 'Middleman', 'http://middlemanapp.com/'},
-          #{link_to 'Bootstrap-Sass', 'https://github.com/twbs/bootstrap-sass'}
-          &amp; Club Mate
+          %p
+            %i.fa.fa-li.fa-cogs
+            Site powered by:
+            %br
+            #{link_to 'Middleman', 'http://middlemanapp.com/'},
+            #{link_to 'Bootstrap-Sass', 'https://github.com/twbs/bootstrap-sass'}
+            &amp;
+            Club Mate
         %li
-          %i.fa.fa-li.fa-camera-retro
-          Photo by:
-          %br
-          = link_to 'Apolonia Wieland', 'http://bangbang-photography.com/'
-    .col-md-4
+          %p
+            %i.fa.fa-li.fa-rocket
+            Icon font:
+            %br
+            #{link_to 'Font Awesome', 'http://fontawesome.io/'}
+        %li
+          %p
+            %i.fa.fa-li.fa-camera-retro
+            Photo by:
+            %br
+            = link_to 'Apolonia Wieland', 'http://bangbang-photography.com/'
+    .col-sm-4
       %h3
         Elsewhere
+      %P
+        Continuous learning via:
+      %ul.fa-ul
+        %li
+          %i.fa.fa-li.fa-book
+          = link_to 'Code School', 'https://www.codeschool.com/users/17549'
       %p
         I store code snippets at these places:
       %ul.fa-ul
