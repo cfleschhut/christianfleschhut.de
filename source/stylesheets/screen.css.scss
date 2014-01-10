@@ -84,9 +84,11 @@ section {
 .highlights {
   line-height: 1.6;
   .text-highlight {
+    $highlight-color: #ffff80;
     margin: 0 -3px;
     padding: 2px 3px;
-    background: rgba(lighten(yellow, 25%), 0.75);
+    background: $highlight-color;
+    background: rgba($highlight-color, 0.75);
   }
 }
 
