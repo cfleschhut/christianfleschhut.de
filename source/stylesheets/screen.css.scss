@@ -1,13 +1,9 @@
-$font-family-base: "Open Sans";
-$headings-font-family: "Merriweather";
+$font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 
 @import "compass";
 @import "bootstrap";
 
-
-body {
-
-}
 
 // Navbar
 .navbar-fixed-top {
@@ -33,9 +29,11 @@ $logo-size: 40px;
     background: $logo-color;
     border-radius: 2px;
     color: #fff;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px;
+    font: {
+      weight: 700;
+      style: italic;
+      size: 20px;
+    }
     line-height: $logo-size;
     text-align: center;
     &:hover {
