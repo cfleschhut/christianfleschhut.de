@@ -63,7 +63,7 @@ $logo-size: 40px;
   @include animation(fadeIn, 1.5s, 0.25s);
 }
 .fadeInUp {
-  @include animation(fadeInUp, 0.75s, 1.25s, ease);
+  @include animation(fadeInUp, 0.75s, 1s, ease);
 }
 
 // Content
@@ -87,7 +87,7 @@ section {
     margin-bottom: 15px;
     font-weight: 300;
   }
-  .lead {
+  .lead p {
     margin-bottom: 15px;
   }
 }
