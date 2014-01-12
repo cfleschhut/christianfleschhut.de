@@ -3,6 +3,7 @@ $headings-font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 
 @import "compass";
 @import "bootstrap";
+@import "mixins";
 
 
 // Navbar
@@ -44,39 +45,6 @@ $logo-size: 40px;
 
 // Intro
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 0.25s;
-  -webkit-animation-fill-mode: both;
-}
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  -webkit-animation-duration: 0.75s;
-  -webkit-animation-delay: 0.75s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: both;
-}
-
 #start {
   text-align: center;
 }
@@ -89,6 +57,13 @@ $logo-size: 40px;
   p {
     letter-spacing: 1px;
   }
+}
+
+.fadeIn {
+  @include animation(fadeIn, 1.5s, 0.25s);
+}
+.fadeInUp {
+  @include animation(fadeInUp, 0.75s, 1.25s, ease);
 }
 
 // Content
