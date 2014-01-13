@@ -151,10 +151,8 @@ section {
   .panel {
     position: relative;
     @include transition(all 0.1s ease-in-out);
-    opacity: 0.75;
     &:hover {
       top: -2px;
-      opacity: 1;
       @include box-shadow(0 2px 2px rgba(0, 0, 0, 0.05));
     }
   }
