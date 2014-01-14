@@ -1,0 +1,23 @@
+#instagram {
+  margin: 30px 0 0 0;
+  ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    @include make-row();
+    li {
+      @include make-sm-column(2);
+      @include make-xs-column(6);
+      margin-bottom: 20px;
+    }
+    a {
+      @include transition(all 0.25s ease-in-out);
+      @include filter(grayscale(0.85));
+      opacity: 0.5;
+      &:hover {
+        @include filter(grayscale(0.0));
+        opacity: 1;
+      }
+    }
+  }
+}
