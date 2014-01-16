@@ -51,6 +51,10 @@ $logo-size: 40px;
 }
 .jumbotron {
   margin-bottom: 0;
+  @media (min-width: $screen-sm-min) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   h1 {
     margin: 10px 0;
     letter-spacing: -1px;
@@ -163,7 +167,7 @@ section {
 
 #site_footer {
   margin: 70px 0 0 0;
-  padding: 70px 0;
+  padding: 90px 0;
   background: $gray-lighter;
   color: $gray-light;
 
