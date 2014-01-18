@@ -4,6 +4,8 @@ $headings-font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 @import "compass";
 @import "bootstrap";
 @import "mixins";
+@import "timeline";
+@import "running";
 @import "instagram";
 
 
@@ -127,45 +129,7 @@ section {
   }
 }
 
-#timeline {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      @include make-row();
-      .panel-wrapper {
-        @include make-sm-column(6);
-      }
-      &:nth-child(even) .panel-wrapper {
-        @include make-sm-column-offset(6);
-      }
-      &:last-child {
-        .panel {
-          margin-bottom: 0;
-        }
-      }
-    }
-  }
 
-  .panel-body {
-    p:last-child {
-      margin: 0;
-    }
-  }
-  .fa-trophy {
-    color: #ccc;
-  }
-
-  .panel {
-    position: relative;
-    @include transition(all 0.1s ease-in-out);
-    &:hover {
-      top: -2px;
-      @include box-shadow(0 2px 2px rgba(0, 0, 0, 0.05));
-    }
-  }
-}
 
 // Footer
 
