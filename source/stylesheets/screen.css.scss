@@ -51,6 +51,7 @@ $logo-size: 40px;
 }
 .jumbotron {
   margin-bottom: 0;
+  background: image-url('background_noise_dark.png');
   @media (min-width: $screen-sm-min) {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -58,6 +59,9 @@ $logo-size: 40px;
   h1 {
     margin: 10px 0;
     letter-spacing: -1px;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 100;
   }
   p {
     letter-spacing: 1px;
@@ -168,7 +172,8 @@ section {
 #site_footer {
   margin: 70px 0 0 0;
   padding: 90px 0;
-  background: $gray-lighter;
+  background-color: $gray-lighter;
+  background-image: linear-gradient(rgba(0,0,0,0.25), transparent 3%), image-url('background_noise_light.png');
   color: $gray-light;
 
   .section {
