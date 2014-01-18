@@ -51,7 +51,7 @@ $logo-size: 40px;
 }
 .jumbotron {
   margin-bottom: 0;
-  background: image-url('background_noise_dark.png');
+  background: #666 image-url('background_noise_dark.png');
   @media (min-width: $screen-sm-min) {
     padding-top: 70px;
     padding-bottom: 70px;
