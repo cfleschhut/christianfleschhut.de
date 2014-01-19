@@ -1,6 +1,13 @@
 #running {
+  .lead {
+    margin-bottom: 30px;
+    font-size: 100%;
+    font-weight: 400;
+  }
   table {
-    margin: 0;
     font-family: "Courier", monospace;
+  }
+  .list-group {
+    margin-bottom: 0;
   }
 }
