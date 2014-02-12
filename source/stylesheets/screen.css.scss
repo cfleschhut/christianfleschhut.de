@@ -3,16 +3,14 @@ $headings-font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 
 @import "compass";
 @import "bootstrap";
+
 @import "mixins";
+@import "fixes";
+
 @import "timeline";
 @import "running";
 @import "instagram";
 
-
-// Navbar
-.navbar-fixed-top {
-  -webkit-transform: scale3d(1 ,1 ,1); // fix: chrome redraw bug
-}
 
 // Logo
 
@@ -46,6 +44,7 @@ $logo-size: 40px;
   }
 }
 
+
 // Intro
 
 #start {
@@ -76,6 +75,7 @@ $logo-size: 40px;
 .fadeInUp {
   @include animation(fadeInUp, 0.75s, 1s, ease);
 }
+
 
 // Content
 
@@ -128,7 +128,6 @@ section {
     }
   }
 }
-
 
 
 // Footer
