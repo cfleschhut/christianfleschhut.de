@@ -8,66 +8,34 @@
             Tools of trade
 
   .row
-    .col-sm-4.col
-      %h4
-        My current tools of trade include:
-      %ul.fa-ul
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Ruby on Rails, HTML (Haml), CSS (Sass, Compass)
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Twitter Bootstrap, Bourbon & Neat, Zurb Foundation
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Sublime Text, Chrome Web Inspector, Git, Photoshop
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            RSpec + Cabybara
-    .col-sm-4.col
-      %h4
-        Trusted technologies I’ve used ever since:
-        -# My guiding principles are:
-      %ul.fa-ul
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Semantic HTML, well-structured CSS, Unobtrusive JavaScript
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            jQuery, MooTools
-        -# %li
-        -#   %p
-        -#     %i.fa.fa-li.fa-angle-right
-        -#     jQuery Mobile, Sencha Touch, Zepto, PhoneGap
-        -# %li
-        -#   %p
-        -#     %i.fa.fa-li.fa-angle-right
-        -#     WordPress
-    .col-sm-4.col
-      %h4
-        At night I dream about someday getting my head around:
-      %ul.fa-ul
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Node.js
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Backbone<sup>*</sup>
-            %small
-              (I’m on it!)
-        %li
-          %p
-            %i.fa.fa-li.fa-angle-right
-            Ember, Angular
-        -# %li
-        -#   %p
-        -#     %i.fa.fa-li.fa-angle-right
-        -#     Canvas, Processing
+    .col-sm-4
+      %figure
+        %canvas{ id: 'html_css', width: 150, height: 150 }
+        %figcaption
+          HTML5 & CSS3
+    .col-sm-4
+      %figure
+        %canvas{ id: 'sass', width: 150, height: 150 }
+        %figcaption
+          Sass
+    .col-sm-4
+      %figure
+        %canvas{ id: 'jquery', width: 150, height: 150 }
+        %figcaption
+          jQuery
+  .row
+    .col-sm-4
+      %figure
+        %canvas{ id: 'rails', width: 150, height: 150 }
+        %figcaption
+          Ruby on Rails
+    %div.col-sm-4
+      %figure
+        %canvas{ id: 'backbone', width: 150, height: 150 }
+        %figcaption
+          Backbone.js
+    .col-sm-4
+      %figure
+        %canvas{ id: 'photoshop', width: 150, height: 150 }
+        %figcaption
+          Photoshop
