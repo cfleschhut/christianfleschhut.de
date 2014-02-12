@@ -33,17 +33,27 @@ $(document).ready(function() {
     ]
   };
 
-  var offset = 0;
-  $.each(data, function(key, data) {
-    var canvas = document.querySelector('#' + key);
-    if(canvas) {
-      offset += 250;
-      setTimeout(function() {
-        var ctx = canvas.getContext('2d');
-        var chart = new Chart(ctx);
-        chart.Doughnut(data, options);
-      }, offset);
-    }
+  var initGraphs = function() {
+    var graphInitDelay = 250;
+
+    $.each(data, function(key, data) {
+      var canvas = document.querySelector('#' + key);
+
+      if(canvas) {
+        graphInitDelay += 250;
+
+        setTimeout(function() {
+          var ctx = canvas.getContext('2d');
+          var chart = new Chart(ctx);
+          chart.Doughnut(data, options);
+        }, graphInitDelay);
+      }
+    });
+  };
+
+  $('#skills').on('inview', function() {
+    $(this).off('inview');
+    initGraphs();
   });
 
 });
