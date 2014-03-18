@@ -8,28 +8,28 @@ $(document).ready(function() {
 
   var data = {
     html_css: [
-      { value: 95, color: "hsl(120, 39%, 54%)" },
-      { value: 5, color: "hsl(120, 10%, 90%)" }
+      { value: 95, color: 'hsl(120, 39%, 54%)' },
+      { value: 5, color: 'hsl(120, 0%, 90%)' }
     ],
     sass: [
-      { value: 90, color: "hsl(120, 39%, 54%)" },
-      { value: 10, color: "hsl(120, 10%, 90%)" }
+      { value: 90, color: 'hsl(120, 39%, 54%)' },
+      { value: 10, color: 'hsl(120, 0%, 90%)' }
     ],
     jquery: [
-      { value: 90, color: "hsl(120, 39%, 54%)" },
-      { value: 10, color: "hsl(120, 10%, 90%)" }
+      { value: 90, color: 'hsl(120, 39%, 54%)' },
+      { value: 10, color: 'hsl(120, 0%, 90%)' }
     ],
     rails: [
-      { value: 60, color: "hsl(120, 39%, 54%)" },
-      { value: 40, color: "hsl(120, 10%, 90%)" }
+      { value: 60, color: 'hsl(120, 39%, 54%)' },
+      { value: 40, color: 'hsl(120, 0%, 90%)' }
     ],
     backbone: [
-      { value: 50, color: "hsl(120, 39%, 54%)" },
-      { value: 50, color: "hsl(120, 10%, 90%)" }
+      { value: 50, color: 'hsl(120, 39%, 54%)' },
+      { value: 50, color: 'hsl(120, 0%, 90%)' }
     ],
     photoshop: [
-      { value: 75, color: "hsl(120, 39%, 54%)" },
-      { value: 25, color: "hsl(120, 10%, 90%)" }
+      { value: 75, color: 'hsl(120, 39%, 54%)' },
+      { value: 25, color: 'hsl(120, 0%, 90%)' }
     ]
   };
 

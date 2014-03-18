@@ -1,0 +1,41 @@
+// Footer
+
+#site_footer {
+  margin: 70px 0 0 0;
+  padding: 90px 0;
+  background-color: $navbar-default-bg;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), transparent 4px);
+  color: $gray-light;
+
+  .section {
+    text-align: center;
+  }
+  .section_02 {
+    margin-top: 20px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    .section {
+      width: 50%;
+      p,
+      nav,
+      ul {
+        margin: 0;
+        display: inline-block;
+      }
+      #copyright {
+        margin-right: 25px;
+      }
+    }
+    .section_01 {
+      float: left;
+      text-align: left;
+      line-height: 26px;
+    }
+    .section_02 {
+      float: right;
+      margin-top: 0;
+      text-align: right;
+    }
+  }
+}

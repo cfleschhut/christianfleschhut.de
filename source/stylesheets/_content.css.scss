@@ -1,0 +1,42 @@
+// Content
+
+section {
+  margin-bottom: -10px;
+  padding-top: 40px;
+}
+
+#start {
+  padding-top: 50px;
+}
+
+#about {
+  img {
+    margin-bottom: 20px;
+  }
+}
+#welcome {
+  h3 {
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+  .lead p {
+    margin-bottom: 15px;
+  }
+}
+.highlights {
+  line-height: 1.6;
+  .text-highlight {
+    $highlight-color: #ffff80;
+    margin: 0 -3px;
+    padding: 2px 3px;
+    background: $highlight-color;
+    background: rgba($highlight-color, 0.75);
+  }
+}
+
+#skills {
+  figure {
+    padding: 20px 0;
+    text-align: center;
+  }
+}

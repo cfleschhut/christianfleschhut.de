@@ -1,0 +1,60 @@
+// Logo
+
+$logo-color: $brand-success;
+$logo-size: 40px;
+
+.navbar-header {
+  position: relative;
+}
+#logo {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  a {
+    width: $logo-size;
+    height: $logo-size;
+    padding: 0;
+    background: $logo-color;
+    border-radius: 2px;
+    color: #fff;
+    font: {
+      weight: 700;
+      style: italic;
+      size: 20px;
+    }
+    line-height: $logo-size;
+    text-align: center;
+    &:hover {
+      background: darken($logo-color, 5%);
+    }
+  }
+}
+
+
+// Intro
+
+#start {
+  text-align: center;
+}
+.jumbotron {
+  margin-bottom: 0;
+  @media (min-width: $screen-sm-min) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  h1 {
+    margin: 10px 0;
+    letter-spacing: -1px;
+    font-weight: 100;
+  }
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+.fadeIn {
+  @include animation(fadeIn, 1.5s, 0.25s);
+}
+.fadeInUp {
+  @include animation(fadeInUp, 0.75s, 1s, ease);
+}
