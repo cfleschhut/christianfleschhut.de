@@ -6,24 +6,24 @@ $logo-size: 40px;
 .navbar-header {
   position: relative;
 }
+
 #logo {
   position: absolute;
-  top: 5px;
+  top: 0;
   left: 15px;
   a {
-    width: $logo-size;
-    height: $logo-size;
-    padding: 0;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-width: 0 1px 1px;
+    padding-left: 16px;
+    padding-right: 16px;
     background: $logo-color;
-    border-radius: 2px;
     color: #fff;
     font: {
       weight: 700;
       style: italic;
       size: 20px;
     }
-    line-height: $logo-size;
-    text-align: center;
     &:hover {
       background: darken($logo-color, 5%);
     }
