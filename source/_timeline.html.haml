@@ -9,7 +9,29 @@
 
   .row
     .col-sm-12
-      %ul#portfolio
+      %ul#portfolio.list-unstyled
+        %li.work
+          .date
+            %h5
+              May 2014 &ndash; now
+          .details
+            .project
+              %h4
+                = link_to 'mydealz.de', 'http://hukd.mydealz.de/'
+            .employer
+              %p
+                %small
+                  6Minutes Media GmbH
+            .description
+              %p
+                Responsive site relaunch
+                %small
+                  [HTML, Twig, Sass, Grunt, RequireJS]
+          .screenshot
+            %figure.img-shadow
+              = link_to 'http://hukd.mydealz.de/' do
+                = image_tag 'screenshots/mydealz.jpg', class: 'img-responsive center-block'
+
         %li.work
           .date
             %h5
@@ -35,7 +57,7 @@
         %li.work
           .date
             %h5
-              Jul 2012 &ndash; Oct 2013
+              Jul 2012 &ndash; Nov 2013
           .details
             .project
               %h4
@@ -57,7 +79,7 @@
         %li.work
           .date
             %h5
-              Nov 2012 &ndash; Oct 2013
+              Nov 2012 &ndash; Nov 2013
           .details
             .project
               %h4
@@ -65,7 +87,7 @@
             .employer
               %p
                 %small
-                  GapFish GmbH / Boost Engagement
+                  Boost Engagement FBX / GapFish GmbH
             .description
               %p
                 Web application frontend
@@ -75,28 +97,6 @@
             %figure.img-shadow
               = link_to 'https://www.entscheiderclub.de/' do
                 = image_tag 'screenshots/entscheiderclub.jpg', class: 'img-responsive center-block'
-
-        %li.work
-          .date
-            %h5
-              Aug 2012
-          .details
-            .project
-              %h4
-                = link_to 'netSTART', 'http://www.netstart.de/'
-            .employer
-              %p
-                %small
-                  Hanse Ventures / Boost Engagement
-            .description
-              %p
-                WordPress theme
-                %small
-                  [WordPress, HTML, CSS, Bootstrap]
-          .screenshot
-            %figure.img-shadow
-              = link_to 'http://www.netstart.de/' do
-                = image_tag 'screenshots/netstart.jpg', class: 'img-responsive center-block'
 
         %li.work
           .date
@@ -148,3 +148,33 @@
             %figure.img-shadow
               = link_to 'http://de.battleknight.gameforge.com/' do
                 = image_tag 'screenshots/battleknight.jpg', class: 'img-responsive center-block'
+
+        %li.work
+          .date
+            %h5
+              Aug 2005 &ndash; Jul 2010
+          .details
+            .project
+              %h4
+                = link_to 'eyeworkers interactive', 'http://www.eyeworkers.de/'
+            .employer
+              %p
+                %small
+                  eyeworkers interactive GmbH
+            .description
+              %dl
+                %dt
+                  Interface design & development
+                %dd
+                  Multiple web-based projects for small and medium-sized businesses + large clients
+                %dt
+                  Apprenticeship
+                %dd
+                  Mediengestalter für Digital- & Printmedien – Fachrichtung Medienoperating
+
+              %small
+                [HTML, CSS, Screendesign, Flash, JavaScript, jQuery, Ext JS, WordPress]
+          .screenshot
+            %figure.img-shadow
+              = link_to 'http://www.eyeworkers.de/' do
+                = image_tag 'screenshots/eyeworkers.jpg', class: 'img-responsive center-block'

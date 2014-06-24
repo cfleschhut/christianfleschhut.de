@@ -1,32 +1,33 @@
-#timeline ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 #portfolio {
+
   .work {
     @include make-row();
     margin-bottom: 20px;
+
     .date {
       @include make-sm-column(2);
     }
+
     .details {
       @include make-sm-column(4);
     }
+
     .screenshot {
       @include make-sm-column(6);
       @media (min-width: $screen-sm-min) {
         padding: 10px 60px 30px;
       }
+
       figure img {
         margin-bottom: 10px;
       }
+
       .img-shadow img {
         border-radius: 3px;
         @include box-shadow(0 10px 30px -3px rgba(0, 0, 0, 0.5));
       }
     }
+
     &:last-child .screenshot {
       padding-bottom: 0;
       img {
@@ -34,4 +35,5 @@
       }
     }
   }
+
 }
