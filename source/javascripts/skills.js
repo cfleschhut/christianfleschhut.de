@@ -28,8 +28,8 @@ $(document).ready(function() {
       { value: 50, color: 'hsl(120, 0%, 90%)' }
     ],
     photoshop: [
-      { value: 75, color: 'hsl(120, 39%, 54%)' },
-      { value: 25, color: 'hsl(120, 0%, 90%)' }
+      { value: 70, color: 'hsl(120, 39%, 54%)' },
+      { value: 30, color: 'hsl(120, 0%, 90%)' }
     ]
   };
 
