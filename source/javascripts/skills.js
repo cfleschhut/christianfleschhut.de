@@ -3,7 +3,8 @@ $(document).ready(function() {
   var options = {
     percentageInnerCutout: 70,
     animationEasing: 'easeOutQuint',
-    animateScale: true
+    animateScale: true,
+    showTooltips: false
   };
 
   var data = {
