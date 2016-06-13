@@ -141,10 +141,12 @@
       %aside
         %h5
           Running data tracking
-        %ul.list-group
-          %li.list-group-item
-            = link_to 'Garmin', 'http://connect.garmin.com/profile/cfleschhut'
-          %li.list-group-item
-            = link_to 'Dailymile', 'http://www.dailymile.com/people/ChristianF'
-          %li.list-group-item
-            = link_to 'Nike+', 'http://nikeplus.nike.com/plus/profile/christianfleschhut/'
+        .list-group
+          = link_to 'Garmin', 'http://connect.garmin.com/profile/cfleschhut',
+            class: 'list-group-item'
+          = link_to 'Strava', 'https://www.strava.com/athletes/525042',
+            class: 'list-group-item'
+          = link_to 'Nike+', 'http://nikeplus.nike.com/plus/profile/christianfleschhut/',
+            class: 'list-group-item'
+          = link_to 'Dailymile', 'http://www.dailymile.com/people/ChristianF',
+            class: 'list-group-item'
