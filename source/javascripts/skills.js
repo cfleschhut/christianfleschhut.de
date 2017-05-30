@@ -16,17 +16,17 @@ $(document).ready(function() {
       { value: 93, color: 'hsl(120, 39%, 54%)' },
       { value: 7, color: 'hsl(120, 0%, 90%)' }
     ],
-    jquery: [
+    backbone: [
       { value: 93, color: 'hsl(120, 39%, 54%)' },
       { value: 7, color: 'hsl(120, 0%, 90%)' }
+    ],
+    react: [
+      { value: 75, color: 'hsl(120, 39%, 54%)' },
+      { value: 25, color: 'hsl(120, 0%, 90%)' }
     ],
     rails: [
       { value: 60, color: 'hsl(120, 39%, 54%)' },
       { value: 40, color: 'hsl(120, 0%, 90%)' }
-    ],
-    backbone: [
-      { value: 75, color: 'hsl(120, 39%, 54%)' },
-      { value: 25, color: 'hsl(120, 0%, 90%)' }
     ],
     photoshop: [
       { value: 70, color: 'hsl(120, 39%, 54%)' },
