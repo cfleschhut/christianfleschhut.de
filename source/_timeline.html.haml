@@ -13,11 +13,40 @@
         %li.work
           .date
             %h5
+              Jan 2018 &ndash; Sep 2018
+          .details
+            .project
+              %h4
+                = link_to 'Grid Singularity', 'https://gridsingularity.com'
+            .employer
+              %p
+                %small
+                  Grid Singularity (Energy Web Foundation)
+            .description
+              %p
+                UI development of
+                = link_to 'D3A UI', 'https://d3a-ui.herokuapp.com'
+                simulation interface MVP for a decentralized energy market
+              %p
+                Building and extending accompanying
+                = link_to 'UI component library', 'https://gsy-component-library.herokuapp.com'
+                for D3A simulation and future products
+              %p.text-muted
+                %small
+                  [React, Redux, ES6, Sass, GraphQL, Semantic UI, JWT, Storybook, Recharts]
+          .screenshot
+            %figure.img-shadow
+              = link_to 'https://gridsingularity.com' do
+                = image_tag 'screenshots/gridsingularity.jpg', class: 'img-responsive center-block'
+
+        %li.work
+          .date
+            %h5
               July 2016 &ndash; July 2017
           .details
             .project
               %h4
-                = link_to 'Highsnobiety', 'http://www.highsnobiety.com/'
+                = link_to 'Highsnobiety', 'https://highsnobiety.com'
             .employer
               %p
                 %small
@@ -25,13 +54,19 @@
             .description
               %p
                 UI development for
-                = link_to 'highsnobiety.com', 'http://www.highsnobiety.com/'
-                global lifestyle news site and
-                = link_to 'whatdropsnow.com', 'https://www.whatdropsnow.com/'
+                = link_to 'Highsnobiety.com', 'https://highsnobiety.com'
+                global lifestyle news site
+              %p
+                UI development for
+                = link_to 'WhatDropsNow.com', 'https://www.whatdropsnow.com'
                 curated shopping platform
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [HTML, Sass, JavaScript, React, Redux, TypeScript, GreenSock GSAP, WordPress, Backbone, Lodash]
+          .screenshot
+            %figure.img-shadow
+              = link_to 'https://highsnobiety.com' do
+                = image_tag 'screenshots/highsnobiety.jpg', class: 'img-responsive center-block'
 
         %li.work
           .date
@@ -40,7 +75,7 @@
           .details
             .project
               %h4
-                = link_to 'Marley Spoon', 'https://www.marleyspoon.de/'
+                = link_to 'Marley Spoon', 'https://marleyspoon.de'
             .employer
               %p
                 %small
@@ -48,12 +83,12 @@
             .description
               %p
                 UI development from initial site launch to market establishment in 5 countries
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
-                  [Rails, Sass, CoffeeScript, Backbone, Foundation, Angular, I18n]
+                  [Rails, Sass, CoffeeScript, Backbone, Underscore, Foundation Zurb, AngularJS, i18n]
           .screenshot
             %figure.img-shadow
-              = link_to 'https://www.marleyspoon.com/' do
+              = link_to 'https://marleyspoon.com' do
                 = image_tag 'screenshots/marleyspoon.jpg', class: 'img-responsive center-block'
 
         %li.work
@@ -63,7 +98,7 @@
           .details
             .project
               %h4
-                = link_to 'mydealz.de', 'http://hukd.mydealz.de/'
+                = link_to 'mydealz.de', 'https://mydealz.de'
             .employer
               %p
                 %small
@@ -71,12 +106,12 @@
             .description
               %p
                 Feature completion for responsive site relaunch
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [HTML, Twig, Sass, Grunt, RequireJS]
           .screenshot
             %figure.img-shadow
-              = link_to 'http://hukd.mydealz.de/' do
+              = link_to 'https://mydealz.de' do
                 = image_tag 'screenshots/mydealz.jpg', class: 'img-responsive center-block'
 
         %li.work
@@ -86,7 +121,7 @@
           .details
             .project
               %h4
-                = link_to 'gigmit.com', 'https://www.gigmit.com/'
+                = link_to 'gigmit.com', 'https://gigmit.com'
             .employer
               %p
                 %small
@@ -94,12 +129,12 @@
             .description
               %p
                 Responsive HTML email templates + frontend refactoring
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [Rails, Haml, Sass]
           .screenshot
             %figure.img-shadow
-              = link_to 'https://www.gigmit.com/' do
+              = link_to 'https://gigmit.com' do
                 = image_tag 'screenshots/gigmit.jpg', class: 'img-responsive center-block'
 
         %li.work
@@ -109,7 +144,7 @@
           .details
             .project
               %h4
-                = link_to 'boost project', 'https://www.boost-project.com/'
+                = link_to 'boost project', 'https://boost-project.com'
             .employer
               %p
                 %small
@@ -117,12 +152,12 @@
             .description
               %p
                 Web application frontend development
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [Rails, Haml, Sass, Compass, jQuery]
           .screenshot
             %figure.img-shadow
-              = link_to 'https://www.boost-project.com/' do
+              = link_to 'https://boost-project.com' do
                 = image_tag 'screenshots/boost.jpg', class: 'img-responsive center-block'
 
         %li.work
@@ -132,7 +167,7 @@
           .details
             .project
               %h4
-                = link_to 'EntscheiderClub', 'https://www.entscheiderclub.de/'
+                = link_to 'EntscheiderClub', 'https://entscheiderclub.de'
             .employer
               %p
                 %small
@@ -140,12 +175,12 @@
             .description
               %p
                 Web application frontend development
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [Rails, Haml, Sass, Bootstrap, jQuery]
           .screenshot
             %figure.img-shadow
-              = link_to 'https://www.entscheiderclub.de/' do
+              = link_to 'https://entscheiderclub.de' do
                 = image_tag 'screenshots/entscheiderclub.jpg', class: 'img-responsive center-block'
 
         %li.work
@@ -155,7 +190,7 @@
           .details
             .project
               %h4
-                Gameforge Mobile
+                = link_to 'Gameforge Mobile', 'https://gameforge.com'
             .employer
               %p
                 %small
@@ -163,7 +198,7 @@
             .description
               %p
                 Multi-platform mobile games interface development
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [HTML5, CSS3, Zepto.js]
           .screenshot
@@ -172,11 +207,11 @@
               %figcaption
                 %ul.list-inline
                   %li
-                    = link_to 'Vampir-Spiel', 'https://itunes.apple.com/de/app/vampir-spiel/id482045970'
+                    = link_to 'Vampir-Spiel', 'https://itunes.apple.com/app/id1368569981'
                   %li
                     = link_to 'Mafia-Spiel', 'https://play.google.com/store/apps/details?id=com.gameforge.xmobile.mafia'
                   %li
-                    = link_to 'Kriegs-Spiel', 'http://www.windowsphone.com/de-de/store/app/kriegs-spiel/3f992fc9-67d2-4b75-a468-85735b5269b6'
+                    = link_to 'Kriegs-Spiel', 'https://www.windowsphone.com/de-de/store/app/kriegs-spiel/3f992fc9-67d2-4b75-a468-85735b5269b6'
 
         %li.work
           .date
@@ -185,7 +220,7 @@
           .details
             .project
               %h4
-                = link_to 'Battleknight', 'http://de.battleknight.gameforge.com/'
+                = link_to 'Battleknight', 'https://battleknight.gameforge.com'
             .employer
               %p
                 %small
@@ -193,12 +228,12 @@
             .description
               %p
                 Browser game interface development
-                &nbsp;&middot;&nbsp;
+              %p.text-muted
                 %small
                   [HTML, CSS, MooTools]
           .screenshot
             %figure.img-shadow
-              = link_to 'http://de.battleknight.gameforge.com/' do
+              = link_to 'https://battleknight.gameforge.com' do
                 = image_tag 'screenshots/battleknight.jpg', class: 'img-responsive center-block'
 
         %li.work
@@ -208,25 +243,20 @@
           .details
             .project
               %h4
-                = link_to 'eyeworkers interactive', 'http://www.eyeworkers.de/'
+                = link_to 'eyeworkers interactive', 'https://eyeworkers.de'
             .employer
               %p
                 %small
                   eyeworkers interactive GmbH
             .description
-              %dl
-                %dt
-                  Interface design & development
-                %dd
-                  Multiple web-based projects for small and medium-sized businesses & large clients
-                %dt
-                  Apprenticeship
-                %dd
-                  Mediengestalter für Digital- & Printmedien – Fachrichtung Medienoperating
+              %p
+                Interface design & development of multiple web-based projects for small and medium-sized businesses & large clients
+              %p
+                Apprenticeship as “Mediengestalter für Digital- & Printmedien (Fachrichtung Medienoperating) IHK”
               %p
                 %small
                   [HTML, CSS, Screendesign, Flash, JavaScript, jQuery, Ext JS, WordPress]
           .screenshot
             %figure.img-shadow
-              = link_to 'http://www.eyeworkers.de/' do
+              = link_to 'https://eyeworkers.de' do
                 = image_tag 'screenshots/eyeworkers.jpg', class: 'img-responsive center-block'

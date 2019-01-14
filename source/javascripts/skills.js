@@ -1,37 +1,36 @@
 $(document).ready(function() {
-
   var options = {
     percentageInnerCutout: 70,
     animationEasing: 'easeOutQuint',
     animateScale: true,
-    showTooltips: false
+    showTooltips: false,
   };
 
   var data = {
     html_css: [
       { value: 93, color: 'hsl(120, 39%, 54%)' },
-      { value: 7, color: 'hsl(120, 0%, 90%)' }
+      { value: 7, color: 'hsl(120, 0%, 90%)' },
     ],
     sass: [
       { value: 93, color: 'hsl(120, 39%, 54%)' },
-      { value: 7, color: 'hsl(120, 0%, 90%)' }
+      { value: 7, color: 'hsl(120, 0%, 90%)' },
     ],
     backbone: [
       { value: 93, color: 'hsl(120, 39%, 54%)' },
-      { value: 7, color: 'hsl(120, 0%, 90%)' }
+      { value: 7, color: 'hsl(120, 0%, 90%)' },
     ],
     react: [
-      { value: 75, color: 'hsl(120, 39%, 54%)' },
-      { value: 25, color: 'hsl(120, 0%, 90%)' }
+      { value: 85, color: 'hsl(120, 39%, 54%)' },
+      { value: 15, color: 'hsl(120, 0%, 90%)' },
     ],
-    rails: [
-      { value: 60, color: 'hsl(120, 39%, 54%)' },
-      { value: 40, color: 'hsl(120, 0%, 90%)' }
-    ],
-    photoshop: [
+    serverside: [
       { value: 70, color: 'hsl(120, 39%, 54%)' },
-      { value: 30, color: 'hsl(120, 0%, 90%)' }
-    ]
+      { value: 30, color: 'hsl(120, 0%, 90%)' },
+    ],
+    design: [
+      { value: 60, color: 'hsl(120, 39%, 54%)' },
+      { value: 40, color: 'hsl(120, 0%, 90%)' },
+    ],
   };
 
   var initGraphs = function() {
@@ -40,7 +39,7 @@ $(document).ready(function() {
     $.each(data, function(key, data) {
       var canvas = document.querySelector('#' + key);
 
-      if(canvas) {
+      if (canvas) {
         graphInitDelay += 250;
 
         setTimeout(function() {
@@ -56,5 +55,4 @@ $(document).ready(function() {
     $(this).off('inview');
     initGraphs();
   });
-
 });

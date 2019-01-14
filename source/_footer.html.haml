@@ -3,7 +3,7 @@
     .section.section_01
       %p#copyright
         &copy;
-        = Time.new.year
+        = Time.now.year
         Christian Fleschhut
       %nav
         %ul.list-inline
@@ -30,24 +30,18 @@
           %li
             %span.fa-stack
               %i.fa.fa-stack-2x.fa-circle
-              %i.fa.fa-stack-1x.fa-inverse.fa-github
-            = link_to 'https://github.com/cfleschhut' do
-              GitHub
-          %li
-            %span.fa-stack
-              %i.fa.fa-stack-2x.fa-circle
               %i.fa.fa-stack-1x.fa-inverse.fa-xing
             = link_to 'http://www.xing.com/profiles/Christian_Fleschhut' do
               Xing
           %li
             %span.fa-stack
               %i.fa.fa-stack-2x.fa-circle
-              %i.fa.fa-stack-1x.fa-inverse.fa-stack-overflow
-            = link_to 'http://stackoverflow.com/cv/christianfleschhut' do
-              StackOverflow
+              %i.fa.fa-stack-1x.fa-inverse.fa-github
+            = link_to 'https://github.com/cfleschhut' do
+              GitHub
           %li
             %span.fa-stack
               %i.fa.fa-stack-2x.fa-circle
-              %i.fa.fa-stack-1x.fa-inverse.fa-bookmark
-            = link_to 'https://del.icio.us/christianfleschhut' do
-              Delicious
+              %i.fa.fa-stack-1x.fa-inverse.fa-stack-overflow
+            = link_to 'http://stackoverflow.com/cv/christianfleschhut' do
+              StackOverflow
